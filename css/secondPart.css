@@ -1,0 +1,254 @@
+body {
+    background-image: url(../materials/bg.jpg);
+    background-size: 100%;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;   
+    color:#E8E8E8; 
+    box-sizing: border-box;
+    font-size:1.1vw;
+    font-family:Raleway, sans-serif;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding:0;
+    margin:0;
+    font-family:Orbitron, sans-serif;
+}
+
+ul{
+    padding:0;
+    margin:0;  
+}
+li{
+    padding:0;
+    margin:0;
+}
+p{
+    padding:0;
+    margin:0;
+}
+
+div {
+    margin:0;
+    padding:0;
+}
+.content{
+    background: #353030;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    min-width: 88%;
+    max-width: 88%;
+    margin-left: 6%;
+    z-index:1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.header {
+    padding-top:1.3vw;
+    padding-left:1.3vw;
+    position:relative;
+    padding-bottom:2vw;
+}
+
+.progress div {
+    height: 2vw;
+    position: absolute;
+    top: 1vw;
+    left: 14vw;
+}
+#score1{
+    background: #e0e0e0;
+    width: 25%;
+}
+#score2{
+    background: #00FF38;
+    width: 0%;
+}
+.level h2 {
+    margin-left: 10%;
+
+    font-size:5.5vw;
+    color:white;
+    text-shadow:
+    0 0 4px #fff,
+    0 0 82px #FF6B00,
+    0 0 92px #FF6B00,
+    0 0 102px #FF6B00,
+    0 0 151px #FF6B00;
+}
+.level{
+    position:absolute;
+
+    left:47vw;
+    width:30vw;
+    position:absolute;
+    top:5vw;
+}
+.wrapper{
+    width:100%;
+    margin-top:10%;
+}
+
+.pictures {
+    width:100%;
+    margin-left:5%;
+    margin-top:13%;
+    padding-bottom: 20%;
+    border-bottom: 2px grey solid;
+}
+.names {
+    width:100%;
+    position:absolute;
+    margin-left:5%;
+
+   
+}
+.film  {
+    position:absolute;
+    width:18%;
+    display: inline-block;
+}
+.second{
+    left:23%;
+}
+.third {
+    left:41%;
+}
+.forth {
+    left:59%;    
+}
+
+.fifth {
+    left:77%;
+}
+.film img {
+    width:95%;
+    border-radius: 10%;
+    box-shadow: 0 5px 15px black;
+    z-index: 2;
+}
+
+.possibleAnswer{
+    margin-top:13%;
+    width:100%;
+    height:10%;
+}
+
+.zone, .choice{
+    width:85%;
+    border: 2px white dotted;
+    margin-left:5%;
+    background-color: rgba(6, 6, 6, 0.125);
+}
+
+.zone {
+    height:54px;
+}
+
+.zone > .choice{
+    height:44px;
+}
+.variant{
+    display: inline-block;
+    width:18%;
+    z-index: 1;
+    margin-top:1.5%;
+    cursor: pointer;
+}
+
+.variant > .choice {
+    height:44px;
+}
+
+.choice  {
+    width:85%;
+    border: 1px white solid;
+    margin-left:5%;
+    background-color:rgb(227, 227, 227);
+    z-index: 2;
+    color:#353030;
+    text-align: center;
+    padding-top:8.5px;
+}
+.send{
+    width: 5%;
+
+    background-color: #FB48FF;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top:75%;
+    right:-7%;
+    transition:transform 1s ease-in-out;
+}
+.send p{
+    padding-top:50px;
+    color:#1e1d1d;
+    font-size:1.2vw;
+    font-weight:900;
+    opacity:0;
+}
+.send:hover{
+    box-shadow:
+    0 0 8px #fff,
+    0 0 16px #fff,
+    0 0 30px #FB48FF,
+    0 0 50px #FB48FF,
+    0 0 70px #FB48FF;
+    transform: scale(1.1);
+    transition:transform 0.5s ease-in-out;
+}
+.next{
+    position:absolute;
+    top:-2000px;
+    background-color: #1e1d1df3;
+    height:100vh;
+    text-align:center;
+    z-index:2;
+    opacity:0;
+    width:100%;
+    padding-top:15%;
+}
+
+#next{
+    margin-top:30px;
+    text-align: center;
+}
+button{
+    width:95px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-radius: 14%;
+    overflow: hidden;
+    background-color: #eeff01;
+    font-size:30px;
+    color:#1e1d1d;
+    box-shadow: 0px 5px 15px black;
+    transition:transform 2s;
+    border: 3px #eeff01 solid;
+    font-family:Orbitron, sans-serif;
+    font-weight: 400;
+
+}
+
+#next:hover{
+    transform: scale(1.2);
+    transition:transform 1s ease-in-out;
+    border: 3px white solid;
+}
+
+.next > h1{
+    padding-top: 50px;
+    font-size: 60px;
+    font-family: Arial;
+    padding-bottom: 50px;
+    color:#00FF38;
+    font-family:Orbitron, sans-serif;
+    font-weight:bold;
+}

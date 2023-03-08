@@ -1,0 +1,238 @@
+body {
+    background-image: url(../materials/bg.jpg);
+    background-size: 100%;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;   
+    color:#E8E8E8; 
+    box-sizing: border-box;
+    font-size:1.1vw;
+    font-family:Raleway, sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding:0;
+    margin:0;
+    font-family:Orbitron, sans-serif;
+}
+
+ul{
+    padding:0;
+    margin:0;  
+}
+li{
+    padding:0;
+    margin:0;
+}
+p{
+    padding:0;
+    margin:0;
+}
+.start{
+    position:relative;
+    top:0;
+    background-color: #1e1d1df3;
+    height:100vh;
+    text-align:center;
+    z-index:2;
+}
+.introduction{
+    padding-top: 10%;
+}
+
+.introduction > h1{
+    padding-top: 50px;
+    font-size: 60px;
+    padding-bottom: 50px;
+    color:#00FF38;
+    font-family:Orbitron, sans-serif;
+    font-weight:bold;
+}
+
+.introduction input {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding:10px;
+    font-size:20px;
+    color:#1e1d1d;
+    width: 15em;
+    height: 2em;
+    background-color: #1F1D1D78;
+    color: #e0e0e0;
+    border: none;
+    border-bottom: 3px solid #4f1dff;
+    font-weight: 400;
+
+padding-bottom: 1px;
+}
+
+.introduction input:focus{
+    outline:0;
+}
+
+#go{
+    margin-top:30px;
+    text-align: center;
+}
+button{
+    width:95px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-radius: 14%;
+    overflow: hidden;
+    background-color: #eeff01;
+    font-size:30px;
+    color:#1e1d1d;
+    box-shadow: 0px 5px 15px black;
+    transition:transform 2s;
+    border: 3px #eeff01 solid;
+    font-family:Orbitron, sans-serif;
+    font-weight: 400;
+
+}
+
+#go:hover{
+    transform: scale(1.2);
+    transition:transform 1s ease-in-out;
+    border: 3px white solid;
+}
+
+.content{
+    background: #353030;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    min-width: 88%;
+    max-width: 88%;
+    margin-left: 6%;
+    z-index:1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.header {
+    padding-top:1.3vw;
+    padding-left:1.3vw;
+    position:relative;
+    padding-bottom:2vw;
+}
+.progress div {
+    height: 2vw;
+    position: absolute;
+    top: 1vw;
+    left: 14vw;
+}
+#score1{
+    background: #e0e0e0;
+    width: 25%;
+}
+#score2{
+    background: #00FF38;
+    width: 10%;
+}
+.mainBody{
+    padding-top:3%;
+    width:100%;
+    position:relative;
+}
+.Task{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    position:absolute;
+}
+
+.second, .third, .forth, .fifth{
+    display: none;
+    opacity:0;
+}
+.leftPart, .rightPart {
+    width:50%;
+}
+.leftPart img{
+    width:60%;
+    margin-left: 20%;
+    border-radius:4%;
+    box-shadow: 0 5px 15px black;
+}
+
+.rightPart img{
+    width:70%;
+    border-radius: 6%;
+    box-shadow: 0 5px 15px black;
+    margin-top: 36%;
+
+}
+.answer input {
+    width: 23vw;
+    height: 2.3vw;
+    border-radius: 1em;
+    margin-left: 9%;
+    margin-top: 7%;
+    background-color: #E9E6DC;
+    border:0px solid black;
+}
+.level h2 {
+    margin-left: 10%;
+    margin-bottom: 15%;
+    font-size:5.5vw;
+    color:white;
+    text-shadow:
+    0 0 4px #fff,
+    0 0 82px #FF6B00,
+    0 0 92px #FF6B00,
+    0 0 102px #FF6B00,
+    0 0 151px #FF6B00;
+}
+.level{
+    position:absolute;
+    top:2vw;
+    left:47vw;
+    width:25vw;
+    position:absolute;
+    top:5vw;
+}
+.checkanswer{
+    width: 4vw;
+    height: 4vw;
+    background-color: #FB48FF;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top:33.3vw;
+    right: 10vw;
+    transition:transform 1s ease-in-out;
+}
+.checkanswer p{
+    padding-top:1.1vw;
+    color:#1e1d1d;
+    font-size:1.2vw;
+    font-weight:900;
+}
+.checkanswer:hover{
+    box-shadow:
+    0 0 8px #fff,
+    0 0 16px #fff,
+    0 0 30px #FB48FF,
+    0 0 50px #FB48FF,
+    0 0 70px #FB48FF;
+    transform: scale(1.2);
+    transition:transform 0.5s ease-in-out;
+}
+
+.answer input:focus{
+    outline: 2px solid white;
+}
+
+.red{
+    background-color: red !important;
+}
+
+.green{
+    background-color:#00FF38 !important;
+}
+
+
+
+
